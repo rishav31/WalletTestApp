@@ -262,7 +262,7 @@ public class MainActivity extends AppCompatActivity
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         balance = (TextView) findViewById(R.id.balance);
-        int oldbalance = Integer.parseInt(balance.getText().toString());
+        //int oldbalance = Integer.parseInt(balance.getText().toString());
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.setDrawerListener(toggle);
